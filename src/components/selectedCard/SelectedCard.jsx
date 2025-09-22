@@ -6,7 +6,7 @@ const SelectedCard = ({ player, removePlayer }) => {
     removePlayer(player);
   };
   return (
-    <div className="border-2 border-red-500 flex justify-between items-center">
+    <div className="border-4 rounded-2xl border-gray-100  flex justify-between items-center m-4 p-3">
       <div className="left flex">
         <img
           className=" h-[50px] w-[50px] rounded-xl"
